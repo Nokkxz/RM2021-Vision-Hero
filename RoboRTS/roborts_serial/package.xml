@@ -1,0 +1,25 @@
+<package>
+    <name>roborts_serial</name>
+    <version>1.0.0</version>
+    <description>
+        use serial to communicate with stm32
+    </description>
+    <author>Lucian</author>
+    <maintainer email="11710913@mail.sustech.edu.cn">Lucian</maintainer>
+    <license>GPL 3.0 </license>
+    <url>https://github.com/RoboMaster/RoboRTS</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+
+    <build_depend>roscpp</build_depend>
+    <run_depend>roscpp</run_depend>
+
+    <build_depend>roborts_msgs</build_depend>
+    <run_depend>roborts_msgs</run_depend>
+
+    <build_depend>geometry_msgs</build_depend>
+
+    <export>
+    </export>
+
+</package>
